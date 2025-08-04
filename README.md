@@ -1,7 +1,7 @@
-- Notes Application by Muhammad Lukmanulhakim
+### Notes Application by Muhammad Lukmanulhakim
 A modern, feature-rich note-taking application built with Laravel 12 and Alpine.js. This application allows users to create, edit, and share notes with different visibility levels and collaborative features.
 
-## Features
+# Features
 Core Features
 
 - User Authentication - Secure login/register system with Laravel Breeze
@@ -11,7 +11,7 @@ Core Features
 - Responsive Design - Mobile-friendly interface with Tailwind CSS
 - Search Functionality - Find users to share notes with
 
-## Technical Features
+# Technical Features
 
 - Secure Authentication - Laravel Breeze implementation
 - Modern UI/UX - Clean design with Tailwind CSS
@@ -20,7 +20,7 @@ Core Features
 - Mobile Responsive - Works seamlessly on all devices
 - Input Validation - Server-side validation for data integrity
 
-## Tech Stack
+# Tech Stack
 
 - Backend Framework: Laravel 12
 - Authentication: Laravel Breeze
@@ -29,7 +29,7 @@ Core Features
 - Database: PostgreSQL (configurable)
 - Package Manager: Composer & NPM
 
-## Requirements
+# Requirements
 
 PHP 8.2 or higher
 Composer
@@ -76,14 +76,14 @@ php artisan serve
 npm run dev
 Visit http://localhost:8000 to see your application.
 
-## Key Features Explained
+# Key Features Explained
 Note Visibility System
 
 Private: Only the creator can view the note
 Shared: Specific users can be granted access
 Public: Anyone can view the note
 
-## User Sharing Workflow
+# User Sharing Workflow
 
 Select "Shared" visibility when creating/editing a note
 Search for users by name or email
@@ -103,25 +103,25 @@ Input Validation: Server-side validation for all forms
 CSRF Protection: Laravel's built-in CSRF protection
 XSS Prevention: Proper output escaping
 
-## API Endpoints
+# API Endpoints
 User Search API
 GET /api/users/search?q={query}
 Returns JSON array of users matching the search query.
 
-## UI Components
+# UI Components
 Alpine.js Components
 
 Note Editor: Text editing 
 User Search: Dynamic user search and selection
 Visibility Option: Private/Public/Share Specific sharing options
 
-## Tailwind CSS Classes
+# Tailwind CSS Classes
 
 Custom utility classes for consistent styling
 Responsive design breakpoints
 Interactive hover and focus states
 
-## Deployment
+# Deployment
 Production Setup
 
 Set APP_ENV=production in .env
@@ -137,7 +137,7 @@ PHP Version: 8.2+
 Memory Limit: 256MB minimum
 Upload Limits: Configure based on note size needs
 
-## Contributing
+# Contributing
 
 Fork the repository
 Create a feature branch (git checkout -b feature/amazing-feature)
@@ -145,7 +145,7 @@ Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
-## Development Notes
+# Development Notes
 Code Style
 
 Follow PSR-12 coding standards
@@ -153,7 +153,7 @@ Use Laravel best practices
 Keep Alpine.js components simple and focused
 Maintain consistent Tailwind CSS patterns
 
-## Testing
+# Testing
 bash# Run PHP tests
 php artisan test
 
